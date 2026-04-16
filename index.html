@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChocoCraft - Premium Artisan Chocolate</title>
+    <meta name="description" content="Indulge in premium artisan chocolate crafted with the finest ingredients. Discover our luxury chocolate collection.">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="navbar__container">
+            <div class="navbar__brand">
+                <h1 class="navbar__logo">ChocoCraft</h1>
+            </div>
+            
+            <ul class="navbar__menu" role="menubar">
+                <li role="none"><a href="#main-content" class="navbar__link" role="menuitem">Home</a></li>
+                <li role="none"><a href="#products" class="navbar__link" role="menuitem">Products</a></li>
+                <li role="none"><a href="#about" class="navbar__link" role="menuitem">About</a></li>
+                <li role="none"><a href="#reviews" class="navbar__link" role="menuitem">Reviews</a></li>
+                <li role="none"><a href="#contact" class="navbar__link" role="menuitem">Contact</a></li>
+            </ul>
+
+            <button class="navbar__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="navbar__toggle-line"></span>
+                <span class="navbar__toggle-line"></span>
+                <span class="navbar__toggle-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main content wrapper -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" aria-label="Hero section">
+            <div class="hero__background">
+                <div class="hero__texture" aria-hidden="true"></div>
+                <div class="hero__image-container">
+                    <img src="images/hero-chocolate.jpg" alt="Premium chocolate breaking apart" class="hero__image" loading="eager">
+                </div>
+                <div class="hero__overlay" aria-hidden="true"></div>
+            </div>
+            
+            <div class="hero__content">
+                <div class="hero__text-group fade-in-up" style="--animation-delay: 0.2s;">
+                    <h1 class="hero__title">ChocoCraft</h1>
+                    <div class="hero__divider" aria-hidden="true"></div>
+                </div>
+                
+                <div class="hero__description-group fade-in-up" style="--animation-delay: 0.4s;">
+                    <p class="hero__subtitle">Artisan Chocolate Perfection</p>
+                    <p class="hero__description">
+                        Indulge in our handcrafted chocolate creations, where premium ingredients 
+                        meet centuries-old techniques to create moments of pure bliss.
+                    </p>
+                </div>
+                
+                <div class="hero__cta-group fade-in-up" style="--animation-delay: 0.6s;">
+                    <button class="btn btn--luxury" type="button" aria-label="Discover our chocolate collection">
+                        Discover Our Collection
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products" id="products" aria-label="Product collection">
+            <div class="container">
+                <header class="section__header">
+                    <h2 class="section__title">Signature Collection</h2>
+                    <div class="section__divider" aria-hidden="true"></div>
+                    <p class="section__description">
+                        Each piece is a masterwork of flavor, carefully crafted to deliver 
+                        an unforgettable chocolate experience.
+                    </p>
+                </header>
+                
+                <div class="products__grid" role="list">
+                    <article class="product-card fade-in-up" style="--animation-delay: 0s;" role="listitem">
+                        <div class="product-card__image-container">
+                            <img src="images/product-truffle.jpg" alt="Gold Truffle Collection" class="product-card__image" loading="lazy">
+                            <div class="product-card__price" aria-label="Price: $45">$45</div>
+                        </div>
+                        <div class="product-card__content">
+                            <h3 class="product-card__title">Gold Truffle Collection</h3>
+                            <p class="product-card__description">Hand-rolled truffles with 24k gold dust</p>
+                        </div>
+                    </article>
+                    
+                    <article class="product-card fade-in-up" style="--animation-delay: 0.2s;" role="listitem">
+                        <div class="product-card__image-container">
+                            <img src="images/product-praline.jpg" alt="Caramel Pralines" class="product-card__image" loading="lazy">
+                            <div class="product-card__price" aria-label="Price: $38">$38</div>
+                        </div>
+                        <div class="product-card__content">
+                            <h3 class="product-card__title">Caramel Pralines</h3>
+                            <p class="product-card__description">Belgian chocolate with salted caramel center</p>
+                        </div>
+                    </article>
+                    
+                    <article class="product-card fade-in-up" style="--animation-delay: 0.4s;" role="listitem">
+                        <div class="product-card__image-container">
+                            <img src="images/product-bark.jpg" alt="Artisan Bark" class="product-card__image" loading="lazy">
+                            <div class="product-card__price" aria-label="Price: $32">$32</div>
+                        </div>
+                        <div class="product-card__content">
+                            <h3 class="product-card__title">Artisan Bark</h3>
+                            <p class="product-card__description">Dark chocolate with toasted almonds & berries</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brand Story Section -->
+        <section class="brand-story" id="about" aria-label="Our brand story">
+            <div class="container">
+                <div class="brand-story__grid">
+                    <div class="brand-story__content fade-in-up">
+                        <h2 class="section__title">Our Story</h2>
+                        <div class="section__divider" aria-hidden="true"></div>
+                        
+                        <div class="brand-story__text">
+                            <p>
+                                Born from a passion for perfection, ChocoCraft began as a small artisan 
+                                workshop where master chocolatiers devoted themselves to the ancient art 
+                                of chocolate making.
+                            </p>
+                            <p>
+                                Every piece tells a story of dedication, from carefully sourcing the 
+                                finest cacao beans from sustainable farms to the meticulous hand-crafting 
+                                process that transforms simple ingredients into extraordinary experiences.
+                            </p>
+                            <p>
+                                Today, we continue this tradition of excellence, creating chocolate that 
+                                doesn't just taste exceptional—it creates moments of pure joy and connection.
+                            </p>
+                        </div>
+                        
+                        <div class="brand-story__stats" role="list" aria-label="Company statistics">
+                            <div class="stat" role="listitem">
+                                <div class="stat__number">25+</div>
+                                <div class="stat__label">Years of Craft</div>
+                            </div>
+                            <div class="stat" role="listitem">
+                                <div class="stat__number">100%</div>
+                                <div class="stat__label">Premium Cacao</div>
+                            </div>
+                            <div class="stat" role="listitem">
+                                <div class="stat__number">50k+</div>
+                                <div class="stat__label">Happy Customers</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="brand-story__visual fade-in-up" style="--animation-delay: 0.3s;">
+                        <div class="brand-story__image-card">
+                            <img src="images/Screenshot from 2025-09-20 10-53-56.png" alt="ChocoCraft artisan process" class="brand-story__image" loading="lazy">
+                        </div>
+                        <div class="brand-story__blur brand-story__blur--1" aria-hidden="true"></div>
+                        <div class="brand-story__blur brand-story__blur--2" aria-hidden="true"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials" id="reviews" aria-label="Customer testimonials">
+            <div class="container">
+                <header class="testimonials__header">
+                    <h2 class="testimonials__title">Customer Reviews</h2>
+                    <div class="testimonials__divider" aria-hidden="true"></div>
+                </header>
+                
+                <div class="testimonials__background-text" aria-hidden="true">
+                    What People Admire About Us
+                </div>
+                
+                <div class="testimonial-carousel-container">
+                    <div class="testimonial-carousel" id="testimonialCarousel">
+                        <div class="testimonial-slide active">
+                            <div class="stars">★★★★★</div>
+                            <p class="quote">"Perfect snacks for long gaming sessions. The Cheese Puffs give me the energy boost I need, futuristic vibes match my setup perfectly!"</p>
+                            <div class="author">
+                                <div class="avatar">M</div>
+                                <div class="author-info">
+                                    <h4>Marcus Rodriguez</h4>
+                                    <p>Gaming Streamer</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-slide">
+                            <div class="stars">★★★★★</div>
+                            <p class="quote">"The aesthetic is absolutely stunning! Every package feels like a piece of art. But more importantly, the taste lives up to the incredible visual presentation."</p>
+                            <div class="author">
+                                <div class="avatar">E</div>
+                                <div class="author-info">
+                                    <h4>Emily Zhang</h4>
+                                    <p>Design Student</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-slide">
+                            <div class="stars">★★★★★</div>
+                            <p class="quote">"ChocoCraft has completely revolutionized my snacking experience. The 3D packaging design isn't just eye candy - these flavors are literally out of this world!"</p>
+                            <div class="author">
+                                <div class="avatar">A</div>
+                                <div class="author-info">
+                                    <h4>Alex Chen</h4>
+                                    <p>Food Blogger</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-slide">
+                            <div class="stars">★★★★★</div>
+                            <p class="quote">"Innovation at its finest! These chocolates bridge the gap between nutrition and futuristic aesthetics. My team is obsessed with the packaging design."</p>
+                            <div class="author">
+                                <div class="avatar">S</div>
+                                <div class="author-info">
+                                    <h4>Sarah Williams</h4>
+                                    <p>Product Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-dots">
+                        <button class="dot active" data-slide="0"></button>
+                        <button class="dot" data-slide="1"></button>
+                        <button class="dot" data-slide="2"></button>
+                        <button class="dot" data-slide="3"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Call to Action Section -->
+        <section class="cta" aria-label="Call to action">
+            <div class="cta__background">
+                <div class="cta__texture" aria-hidden="true"></div>
+                <div class="cta__blur cta__blur--1" aria-hidden="true"></div>
+                <div class="cta__blur cta__blur--2" aria-hidden="true"></div>
+            </div>
+            
+            <div class="container">
+                <div class="cta__content">
+                    <h2 class="cta__title fade-in-up">Ready to Indulge?</h2>
+                    <div class="section__divider" aria-hidden="true"></div>
+                    <p class="cta__description fade-in-up" style="--animation-delay: 0.2s;">
+                        Join thousands of chocolate lovers who have discovered the perfect 
+                        blend of artistry and flavor in every ChocoCraft creation.
+                    </p>
+                    <div class="cta__buttons fade-in-up" style="--animation-delay: 0.4s;">
+                        <a href="#products" class="btn btn--luxury" aria-label="Shop chocolate collection">
+                            Shop Collection
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="features" role="list" aria-label="Our features">
+                    <div class="feature fade-in-up" style="--animation-delay: 0.6s;" role="listitem">
+                        <div class="feature__icon" aria-hidden="true">🎁</div>
+                        <h3 class="feature__title">Luxury Gift Boxes</h3>
+                        <p class="feature__description">Elegantly packaged collections perfect for special occasions and cherished moments.</p>
+                    </div>
+                    <div class="feature fade-in-up" style="--animation-delay: 0.8s;" role="listitem">
+                        <div class="feature__icon" aria-hidden="true">🚚</div>
+                        <h3 class="feature__title">Free Shipping</h3>
+                        <p class="feature__description">Complimentary shipping on all orders over $50, delivered fresh to your door.</p>
+                    </div>
+                    <div class="feature fade-in-up" style="--animation-delay: 1s;" role="listitem">
+                        <div class="feature__icon" aria-hidden="true">❤️</div>
+                        <h3 class="feature__title">Made with Love</h3>
+                        <p class="feature__description">Each piece is handcrafted with passion, using only the finest premium ingredients.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3 class="footer__title">ChocoCraft</h3>
+                    <p class="footer__description">
+                        Pioneering the future of chocolate with immersive experiences, premium flavors, and revolutionary packaging that transcends ordinary taste.
+                    </p>
+                    <div class="footer__contact">
+                        <p>📧 hello@chococraft.com</p>
+                        <p>📞 1-800-CHOCO-1</p>
+                        <p>📍 Artisan District, Neo Tokyo</p>
+                    </div>
+                </div>
+
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h4 class="footer__column-title">Products</h4>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">Gold Truffle Collection</a></li>
+                            <li><a href="#" class="footer__link">Caramel Pralines</a></li>
+                            <li><a href="#" class="footer__link">Artisan Bark</a></li>
+                            <li><a href="#" class="footer__link">Limited Editions</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__column">
+                        <h4 class="footer__column-title">Company</h4>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">About ChocoCraft</a></li>
+                            <li><a href="#" class="footer__link">Our Mission</a></li>
+                            <li><a href="#" class="footer__link">Sustainability</a></li>
+                            <li><a href="#" class="footer__link">Careers</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__column">
+                        <h4 class="footer__column-title">Support</h4>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">Help Center</a></li>
+                            <li><a href="#" class="footer__link">Shipping Info</a></li>
+                            <li><a href="#" class="footer__link">Returns</a></li>
+                            <li><a href="#" class="footer__link">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__newsletter">
+                <div class="newsletter">
+                    <div class="newsletter__content">
+                        <h4 class="newsletter__title">🍫 Join the ChocoCraft Family</h4>
+                        <p class="newsletter__description">Get exclusive access to new collections, artisan recipes, and premium chocolate updates.</p>
+                    </div>
+                    <form class="newsletter__form">
+                        <input type="email" class="newsletter__input" placeholder="Enter your email..." required>
+                        <button type="submit" class="newsletter__button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2024 ChocoCraft. All rights reserved. Chocolate reimagined for the future.</p>
+                <div class="footer__social">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
